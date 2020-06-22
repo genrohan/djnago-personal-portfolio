@@ -3,7 +3,7 @@
 }
 
 .navbar-nav .nav-link:hover {
-    color: rgba(0,0,0,.5) !important;
+    color: cyan !important;
 }
 
 body {
@@ -22,3 +22,92 @@ body {
         font-size: 5rem;
     }
 }
+
+#home{
+    background-color: violet;
+    margin-bottom: 15px;
+}
+.logo{
+    border-radius: 30%;
+    float: left;
+    width: 300px;
+    padding-right: 25px;
+    padding-top: 25px;
+    padding-bottom: 10px;
+    margin-top: 8mm;
+    margin-bottom: 1mm;
+}
+.name{
+    font-family: 'Lobster', cursive;
+    font-size: 2rem;
+    padding-top: 19px;
+}
+.overview{
+    font-family: 'Playfair Display', serif;
+    color: beige;
+}
+h4{
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 50px;
+    font-weight: 600;
+    padding: 0;
+    margin: 0 auto;
+}
+.background-1{
+    background-image: url(image/background-1.jpg);
+}
+a:hover{
+    color: red;
+    font-weight: 400;
+}
+a{
+    text-decoration: none;
+}
+.intro{
+    padding-top: 8mm;
+    font-family: 'Caveat', cursive;
+    font-size: 28px;
+    text-align: justify;
+}
+.self-image{
+    width: 300px;
+    float: left;
+    padding-right: 12mm;
+    padding-top: 4mm;
+}
+.content-wrap {
+    max-width: 950px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+nav {
+    text-align: center;
+    background: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+nav a {
+    display: inline-block;
+    padding: 15px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.contact-info a {
+    padding: 10px;
+    display: inline-block;
+    color: salmon;
+    font-size: 5mm;
+}
+footer {
+    text-align: center;
+    background: #2B2D42;
+    color: #8D99AE;
+}
+#contact{
+    margin-top: 15px;
+    padding: 2mm 2mm 3mm;
+}
+
+
